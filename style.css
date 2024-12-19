@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0;
+  height: 1000px;
+}
+
+body {
+  font-family: "Inter";
+}
+
+/* ------------------- NAVBAR */
+nav {
+  height: 60px;
+  position: fixed;
+  width: 100svw;
+  background-color: white;
+  z-index: 1;
+}
+.main-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 5pxpx;
+  margin-inline: 170px;
+}
+.main-nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.main-nav li {
+  padding-inline: 20px;
+}
+
+.main-nav a {
+  font-size: 14px;
+  font-weight: 600;
+  text-wrap: nowrap;
+  text-decoration: none;
+  color: #374151;
+}
+.button-nav {
+  display: flex;
+  list-style-type: none;
+}
+.button-nav li {
+  padding-inline: 20px;
+}
+.button-nav a {
+  font-weight: 600;
+
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+
+.logo {
+  margin: 18px 40px;
+}
+.logo img {
+  height: 22px;
+  width: 68px;
+}
+.login {
+  font-size: 14px;
+
+  color: #374151;
+}
+.button-purple {
+  font-size: 12px;
+  background-color: #714b67;
+  color: white;
+  padding: 9px 16px;
+  border: 1px solid #714b67;
+  border-radius: 4px;
+}
+
+/* --------------------- SECTION 1 */
+section.one {
+  text-align: center;
+  padding-top: 48px;
+  padding-bottom: 64px;
+  border-top: 60px;
+}
+.caveat {
+  font-family: "caveat";
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.one .container {
+  padding-inline: 200px;
+  margin-top: 60px;
+  line-height: 1;
+}
+
+.container h1 {
+  font-size: 96px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.container h2 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 48px;
+}
+
+.doodle-yellow {
+  background-image: url("https://odoocdn.com/openerp_website/static/src/img/highlights/yellow_highlight_bold_05.svg");
+  background-position: 60%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  white-space: nowrap;
+}
+
+.doodle-blue {
+  background-image: url("https://odoocdn.com/openerp_website/static/src/img/highlights/blue_highlight_01.svg");
+  background-position-x: 50%;
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  white-space: nowrap;
+}
+em {
+  text-align: center;
+  text-wrap: nowrap;
+  color: #714b67;
+  font-size: 32px;
+  font-weight: 700px;
+  position: absolute;
+  rotate: 350deg;
+  margin-right: -12rem;
+  margin-top: -1rem;
+  left: 70%;
+  /* z-index: -1; */
+}
+
+.begin-button {
+  background-color: #714b67;
+  padding: 12px 24px;
+  margin: 0px 16px 8px 0px;
+  border: 2px solid #714b67;
+  border-radius: 4px;
+
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+.demo-button {
+  background-color: #f3f4f6;
+  padding: 12px 24px;
+  margin: 0px 16px 8px 0px;
+  border: 2px solid #f3f4f6;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #714b67;
+  text-decoration: none;
+}
+
+/* -------------- SECTION 2 */
+
+
+section.two {
+  background-color: #F3F4F6;
+  margin-top: 40px;
+  height: 1000px; /* nanti heignya benerin */
+
+}
