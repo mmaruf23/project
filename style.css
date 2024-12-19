@@ -158,10 +158,217 @@ em {
 
 /* -------------- SECTION 2 */
 
-
 section.two {
-  background-color: #F3F4F6;
-  margin-top: 40px;
-  height: 1000px; /* nanti heignya benerin */
+  background-color: #f3f4f6;
+  margin-top: 30px;
+  /* padding-bottom: 96px; */
+}
 
+.container-fluid {
+  margin-inline: 291.5px;
+  padding-inline: 16px;
+}
+
+.container-app {
+  display: flex;
+  justify-content: center;
+  /* margin-inline: -20px; */
+  /* background-color: red; */
+}
+
+.content-app {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 8px;
+}
+.checkbox-app {
+  grid-column: span 3 / span 3;
+
+}
+
+.all-app {
+  padding-top: 40px;
+  grid-column: span 3 / span 3;
+  grid-column-start: 4;
+  text-align: right;
+  
+}
+.all-app a{
+  font-size: 16px;
+  color: #017e84;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.all-app img {
+  height: 20px;
+}
+.img-app {
+  text-decoration: none;
+  color: #111827;
+  font-size: 14px;
+  font-weight: 600;
+  margin-inline: 12px;
+  margin-bottom: 30px;
+  /* height: 100px; */
+}
+
+.img-app figure{
+  text-align: center;
+  /* text-decoration: ; */
+  margin: 0;
+
+}
+
+.img-app img {
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  white-space-collapse: collapse;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+  padding: 0.75rem;
+  background-color: white;
+}
+
+/* ------- TOGGLE */
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  border-radius: 15px;
+  background: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+
+label::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 21px;
+  height: 21px;
+  border-radius: 50%;
+  background: #000000;
+  transition: all 0.4s ease-in-out;
+}
+
+input[type="checkbox"]:checked + label {
+  background: #714b67;
+}
+
+input[type="checkbox"]:checked + label::before {
+  transform: translateX(25px);
+  background: #ffffff;
+
+}
+
+.checkbox-img {
+  height: 60px;
+  width: 60px;
+}
+
+/* SECTION THREE 3 */
+
+.three {
+  font-size: 24px;
+  text-align: center;
+  color: #111827;
+  background-color: #f3f4f6;
+  height: 2000px;
+}
+.end-three {
+  font-size: 24px;
+  text-align: center;
+  color: #111827;
+  background-color: #f3f4f6;
+  padding-bottom: 100px;
+}
+
+.three p, .end-three p{
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+.arrow_doodle_3 {
+  rotate: 40deg;
+}
+
+.banding {
+  font-family: "Caveat";
+  font-size: 32px;
+
+}
+.banding a {
+  text-decoration: none;
+  color: #714b67;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+/* SECTION FOUR  */
+
+.doodle-blue-2 {
+  background-image: url("https://odoocdn.com/openerp_website/static/src/img/highlights/blue_highlight_bold_03.svg");
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  white-space: nowrap;
+}
+
+.four h2 {
+  font-family: "Caveat";
+  font-size: 80px;
+  text-align: center;
+}
+
+.four .grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.tech-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50px;
+
+}
+.tech-list div {
+  background-color: #f3f4f6;
+  border-radius: 50%;
+}
+
+/* SECTION FIVE 5 */
+.five {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.five a{
+  background-color: #714b67;
+  margin: 0px 0px 16px;
+  font-weight: 600;
+  color: white;
+  padding: 16px 32px;
+  border: #714b67 1px solid;
+  
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* FOOTER  */
+footer {
+  background-color: #252733;
+  height: 400px;
 }
