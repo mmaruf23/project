@@ -370,5 +370,76 @@ input[type="checkbox"]:checked + label::before {
 /* FOOTER  */
 footer {
   background-color: #252733;
-  height: 400px;
+  /* height: 400px; */
+  color: #adb5bd;
+  /* text-align: center; */
+  /* display: flex; */
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+}
+.footer-logo img{
+  height: 30px;
+  width: 94px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-inline: auto;
+}
+.bot {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.linking {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-size: 14px;
+  column-gap: 80px;
+  row-gap: 50px;
+  
+}
+.linking ul {
+  padding-inline-start: 0px;
+  line-height: 1.5;
+}
+.linking li {
+  list-style: none;
+  text-align: left;
+}
+.linking span {
+  font-size: 20px;
+  color: white;
+}
+
+.opensource {
+  grid-row-start: 2;
+}
+.service , .aboutus{
+  grid-row: span 2 / span 2;
+}
+
+.divider {
+  height: 0.75rem;
+}
+
+.aboutodoo {
+  font-size: 14px;
+  margin-inline: auto;
+  padding-inline: 50px;
+  width: 50%;
+  padding-top: 50px;
+}
+.aboutodoo div{
+  margin-left: 150px;
+}
+
+.socialmedia {
+  display: flex;
+  gap: 20px;
+}
+.socialmedia svg{
+  width: 16px;
+  height: 50px;
 }
